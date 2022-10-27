@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Productos</name>
+    </assembly>
+    <members>
+        <member name="M:Productos.Controllers.ProductoController.Get">
+            <summary>
+            Obtiene todos los productos
+            </summary>
+        </member>
+        <member name="M:Productos.Controllers.ProductoController.GetById(System.Int32)">
+            <summary>
+            Obtiene un producto en específico por su Id
+            </summary>
+        </member>
+        <member name="M:Productos.Controllers.ProductoController.Create(Productos.Entity.Producto)">
+             <summary>
+             Crea un nuevo producto
+             </summary>
+             <remarks>
+             Ejemplo:
+                 
+                 {
+                      "Nombre": "atun",
+                      "Precio": 15,
+                      "Stock": 8,
+                      "FechaRegistro": "2022-09-08T09:21:52.190Z"
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:Productos.Controllers.ProductoController.Update(Productos.Entity.Producto)">
+             <summary>
+             Actualiza un nuevo producto
+             </summary>
+             <remarks>
+             Ejemplo:
+                 
+                 {
+                      "Id: 1"
+                      "Nombre": "pan",
+                      "Precio": 2,
+                      "Stock": 1500,
+                      "FechaRegistro": "2021-10-05T09:21:52.190Z"
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:Productos.Controllers.ProductoController.Delete(System.Int32)">
+            <summary>
+            Elimina un producto en específico
+            </summary>
+        </member>
+    </members>
+</doc>
